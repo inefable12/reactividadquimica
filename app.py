@@ -108,12 +108,12 @@ if st.button("Mostrar Radar Chart"):
 data1 = {
     "Descriptor": ["Energía de Ionización (I)", "Afinidad Electrónica (A)", "Potencial Químico (μ)", "Electronegatividad (χ)", "Dureza Química (η)", "Suavidad Química (S)", "Electrofilicidad (ω)"],
     "Interpretación": ["H2O necesita más energía para perder un electrón, por lo que es menos reactivo como nucleófilo.",
-          "NH3  tiene una mayor tendencia a aceptar electrones en comparación con H2O",
+          "(Energía liberada al aceptar un electrón) NH3  tiene una mayor tendencia a aceptar electrones en comparación con H2O",
           "H2O es más estable químicamente y menos propenso a intercambiar electrones.",
           "H2O es más electronegativo, lo que indica una mayor atracción hacia los electrones.",
           "H2O es más duro, lo que significa que es menos propenso a la transferencia de carga.",
           "NH3 es más suave, por lo que puede redistribuir su densidad electrónica más fácilmente.",
-          "H2O es un mejor electrófilo y tiene más capacidad para aceptar electrones."
+          "(Propensión general a aceptar densidad electrónica) H2O es un mejor electrófilo y tiene más capacidad para aceptar electrones (Descriptor contextual en una interacción química | Incluye la dureza química, reflejando estabilidad tras aceptar electrones)."
          ]
     #mol2_name: [mu2, chi2, eta2, S2, omega2]
 }
