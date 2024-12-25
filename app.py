@@ -1,4 +1,4 @@
-import streamlit as st
+eimport streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -107,7 +107,7 @@ if st.button("Mostrar Radar Chart"):
 # Tabla de descriptores
 data1 = {
     "Descriptor": ["Energía de Ionización (I)", "Afinidad Electrónica (A)", "Potencial Químico (μ)", "Electronegatividad (χ)", "Dureza Química (η)", "Suavidad Química (S)", "Electrofilicidad (ω)"],
-    Interpretación: ["H2O necesita más energía para perder un electrón, por lo que es menos reactivo como nucleófilo.",
+    "Interpretación": ["H2O necesita más energía para perder un electrón, por lo que es menos reactivo como nucleófilo.",
           "NH3  tiene una mayor tendencia a aceptar electrones en comparación con H2O",
           "H2O es más estable químicamente y menos propenso a intercambiar electrones.",
           "H2O es más electronegativo, lo que indica una mayor atracción hacia los electrones.",
