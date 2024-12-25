@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Título de la aplicación
 st.title("Comparación de Descriptores de Reactividad Química")
-
+st.write("Jesus Alvarado-Huayhuaz")
 # Descripción
 st.write("Esta aplicación compara los descriptores de reactividad química de dos moléculas utilizando la teoría conceptual de DFT. Puedes ingresar los valores de energía de ionización (I) y afinidad electrónica (A) para cada molécula.")
 
